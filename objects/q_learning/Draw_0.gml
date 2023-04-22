@@ -16,6 +16,7 @@ draw_rectangle(x+(-2*10),y+(3*10),x+(-2*10+3),y+(3*10+3),false)
 //6
 draw_rectangle(x+(-3*10),y+(1*10),x+(-3*10+3),y+(1*10+3),false)
 
+//in the rightmost room is the start, and in the leftmost room is the reward
 draw_text(x+14,y-5,"Start")
 draw_text(x-90,y-5,"Reward")
 
@@ -23,7 +24,8 @@ draw_text(x-90,y-5,"Reward")
 
 draw_set_color(c_red)
 // how to run around the rooms
-var numb=state_view[@ floor(current_time/room_speed/2)-1] 
+var time=min(current_time/room_speed/2,array_length(state_view)-1)
+var numb=state_view[@ floor(time)] 
 switch (numb)
 {
 	case 0:
