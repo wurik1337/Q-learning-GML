@@ -1,0 +1,10 @@
+{
+  "FolderOrderSettings": [
+    {"name":"exampl","order":1,"path":"folders/exampl.yy",},
+    {"name":"example","order":11,"path":"folders/exampl/example.yy",},
+    {"name":"q learning_100%","order":2,"path":"folders/exampl/example/q learning_100%.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"Room_batch","order":1,"path":"rooms/Room_batch/Room_batch.yy",},
+  ],
+}

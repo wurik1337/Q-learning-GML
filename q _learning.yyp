@@ -1,0 +1,34 @@
+{
+  "resourceType": "GMProject",
+  "resourceVersion": "1.7",
+  "name": "q _learning",
+  "AudioGroups": [
+    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
+  ],
+  "configs": {
+    "children": [],
+    "name": "Default",
+  },
+  "defaultScriptType": 1,
+  "Folders": [
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"exampl","folderPath":"folders/exampl.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"example","folderPath":"folders/exampl/example.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"q learning_100%","folderPath":"folders/exampl/example/q learning_100%.yy",},
+  ],
+  "IncludedFiles": [],
+  "isEcma": false,
+  "LibraryEmitters": [],
+  "MetaData": {
+    "IDEVersion": "2023.2.1.75",
+  },
+  "resources": [
+    {"id":{"name":"Room_batch","path":"rooms/Room_batch/Room_batch.yy",},},
+    {"id":{"name":"q_learning","path":"objects/q_learning/q_learning.yy",},},
+  ],
+  "RoomOrderNodes": [
+    {"roomId":{"name":"Room_batch","path":"rooms/Room_batch/Room_batch.yy",},},
+  ],
+  "TextureGroups": [
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
+  ],
+}
